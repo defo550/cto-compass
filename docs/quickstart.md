@@ -2,7 +2,7 @@
 
 Get oriented with the S.E.C. Framework in 15 minutes.
 
-## 📍 Step 1: Understand Your Current Position (5 min)
+## Step 1: Understand Your Current Position (5 min)
 
 Take a moment to reflect on yesterday. What did you actually do?
 
@@ -12,7 +12,7 @@ Take a moment to reflect on yesterday. What did you actually do?
 
 Write down your rough percentages: S: xx%r E: xx%, C: xx%
 
-## 🧭 Step 2: Review the Framework (5 min)
+## Step 2: Review the Framework (5 min)
 
 The S.E.C. Framework provides structure for the CTO role:
 
@@ -35,7 +35,7 @@ The S.E.C. Framework provides structure for the CTO role:
 - Team Development → Building technical capability
 - Personal Development → Your own growth
 
-## 🏃 Step 3: Start Tagging (5 min)
+## Step 3: Start Tagging (5 min)
 
 Try tagging your current week's tasks:
 
@@ -51,7 +51,7 @@ Tuesday:
 - Board deck preparation → Strategy.Stakeholder Management.Board communications
 ```
 
-## 📊 Your Target Allocation
+## Your Target Allocation
 
 Based on your company size:
 
@@ -61,13 +61,13 @@ Based on your company size:
 | 25-75 people      | 30-40%          | 40-50%           | 20-30%         |
 | 75+ people        | 35-45%          | 35-45%           | 20-30%         |
 
-## 🎯 Next Actions
+## Next Actions
 
 1. **This Week**: Tag your calendar retrospectively
 2. **Next Week**: Plan your time allocation proactively
 3. **Month End**: Review patterns and adjust
 
-## 💡 Quick Wins
+## Quick Wins
 
 **If you're over-indexed on Execution:**
 

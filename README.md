@@ -78,12 +78,6 @@ cto-compass/
 └── templates/            # Useful templates and tools
 ```
 
-## Contributing
-
-This framework is based on practical experience but continues to evolve. Contributions welcome from technology leaders across different industries and company stages.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## Background
 
 This framework was developed through real experience as a co-founder and CTO of a healthcare technology company. It addresses the common challenge of the "accidental CTO" - technical professionals thrust into leadership without formal training or clear role definition.
