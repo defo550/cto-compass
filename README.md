@@ -13,13 +13,13 @@ This framework emerged from real-world experience leading technology at a health
 - **Practical tagging system** for tracking where your time actually goes
 - **Career development roadmap** for aspiring technology leaders
 
-## The S.E.C. Framework
+## The SEC Framework
 
 The CTO Compass organizes technology leadership into three essential domains:
 
 ### Strategy (25-35% of time)
 
-_Setting direction and external positioning_
+#### Setting direction and external positioning
 
 - Technology Planning
 - Market Positioning
@@ -28,7 +28,7 @@ _Setting direction and external positioning_
 
 ### Execution (50-60% of time)
 
-_Delivering results and operational excellence_
+#### Delivering results and operational excellence
 
 - Data & Infrastructure
 - Security & Compliance
@@ -37,7 +37,7 @@ _Delivering results and operational excellence_
 
 ### Culture (15-25% of time)
 
-_Building teams and organizational capability_
+#### Building teams and organizational capability
 
 - Team Development
 - Personal Development
@@ -69,7 +69,7 @@ _Building teams and organizational capability_
 
 ```bash
 cto-compass/
-├── mindmap.mermaid        # S.E.C. framework visualization
+├── mindmap.mermaid        # SEC framework visualization
 ├── docs/
 │   ├── framework.md       # Complete framework guide
 │   ├── quickstart.md      # Getting started guide
