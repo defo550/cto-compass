@@ -1,10 +1,10 @@
-# The CTO S.E.C. Framework: Strategy-Execution-Culture Mindmap & Tagging System
+# The CTO SEC Framework: Strategy-Execution-Culture Mindmap & Tagging System
 
 ## v2.0 - Enhanced for CTO/CIO/CISO Role in Small-Medium Companies
 
 ## Overview
 
-This mindmap framework serves dual purposes: a comprehensive visual job description for the CTO role in small-to-medium sized companies and a practical tagging system for tracking time allocation and task categorization. The S.E.C. framework (Strategy-Execution-Culture) is my own creation, developed to provide a structured approach to understanding and managing the multifaceted responsibilities of technology leadership when you're simultaneously CTO, CIO, and CISO—a reality for most technical leaders in companies with 10-100 employees. The hierarchical structure allows for both high-level strategic overview and granular operational task tracking.
+This mindmap framework serves dual purposes: a comprehensive visual job description for the CTO role in small-to-medium sized companies and a practical tagging system for tracking time allocation and task categorization. The SEC framework (Strategy-Execution-Culture) is my own creation, developed to provide a structured approach to understanding and managing the multifaceted responsibilities of technology leadership when you're simultaneously CTO, CIO, and CISO—a reality for most technical leaders in companies with 10-100 employees. The hierarchical structure allows for both high-level strategic overview and granular operational task tracking.
 
 **Framework Origins**: This framework represents practical experience developed iteratively through the challenges of running a technology organization in resource-constrained startup environments. Created to bring structure to the often ambiguous and rapidly evolving nature of small company technology leadership, it has been refined through navigating platform dependencies, managing security and compliance requirements with limited resources, and surviving macro environmental challenges including the COVID-19 pandemic's impact on healthcare technology markets. Originally created to address my own role ambiguity as a co-founder thrust into the CTO position at a 10-15 person company, it evolved into a systematic approach for balancing competing priorities when you can't delegate everything and must wear multiple hats.
 
@@ -27,7 +27,7 @@ This mindmap framework serves dual purposes: a comprehensive visual job descript
 1 Role Definition Ambiguity
 
 - _Personal Challenge_: "As a co-founder suddenly in the CTO role, I struggled with whether I should be coding, managing infrastructure, or strategizing"
-- _Framework Solution_: Clear S.E.C. domain allocation helps balance tactical execution with strategic leadership
+- _Framework Solution_: Clear SEC domain allocation helps balance tactical execution with strategic leadership
 - _Lesson Learned_: The framework evolved as I discovered that effective CTOs need structured approaches to manage competing priorities
 
 2 Stakeholder Communication
@@ -182,7 +182,7 @@ Use these as your main time allocation buckets:
 
 ### Industry Customization
 
-While originally developed for healthcare technology leadership, the S.E.C. framework adapts to various sectors by adjusting Level 3 activities:
+While originally developed for healthcare technology leadership, the SEC framework adapts to various sectors by adjusting Level 3 activities:
 
 **FinTech CTO**: Strategy.Market Positioning → "Navigate regulatory framework changes"
 **SaaS CTO**: Execution.Data & Infrastructure → "Optimize cloud infrastructure resilience"
@@ -221,7 +221,7 @@ The Manager Phase: Building to Managing
 The Leader Phase: Managing to Leading (Current)
 
 - _Reality_: Now responsible for technology vision, security/compliance (CIO/CISO role), team development, and strategic positioning
-- _Framework Maturation_: Developed S.E.C. framework to bring structure to competing priorities and track whether time allocation matches business needs
+- _Framework Maturation_: Developed SEC framework to bring structure to competing priorities and track whether time allocation matches business needs
 - _Key Insight_: Technology leadership requires systematic approach to balancing Strategy (where we're going), Execution (delivering results), and Culture (developing people and organization)
 
 ### Critical Lessons Shaping This Framework

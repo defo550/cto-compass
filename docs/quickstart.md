@@ -1,6 +1,6 @@
 # CTO Compass Quick Start Guide
 
-Get oriented with the S.E.C. Framework in 15 minutes.
+Get oriented with the SEC Framework in 15 minutes.
 
 ## Step 1: Understand Your Current Position (5 min)
 
@@ -14,7 +14,7 @@ Write down your rough percentages: S: xx%r E: xx%, C: xx%
 
 ## Step 2: Review the Framework (5 min)
 
-The S.E.C. Framework provides structure for the CTO role:
+The SEC Framework provides structure for the CTO role:
 
 ### Strategy - "Where are we going?"
 
