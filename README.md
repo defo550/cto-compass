@@ -4,9 +4,11 @@ Navigate the complexities of technology leadership with the Strategy, Execution,
 
 A practical guide for CTOs, aspiring technology leaders, and "accidental CTOs" who need structure in balancing Strategy, Execution, and Culture.
 
-## Purpose
+## Background & Purpose
 
-This framework emerged from real-world experience leading technology at a healthcare analytics startup. It provides:
+This framework was developed through real experience as a co-founder and CTO of a healthcare technology company. It addresses the common challenge of the "accidental CTO" - technical professionals thrust into leadership without formal training or clear role definition.
+
+The SEC Framework provides the structure I wish I'd had when first stepping into technology leadership. It provides:
 
 - **Clear structure** for the often ambiguous CTO role
 - **Time allocation guidance** to balance competing priorities
@@ -49,14 +51,6 @@ The CTO Compass organizes technology leadership into three essential domains:
 3. **Apply to Your Role**: Check out [real-world examples](docs/examples.md)
 4. **Track Your Time**: Use the tagging system to optimize your effectiveness
 
-## Time Allocation by Company Stage
-
-| Company Size   | Strategy | Execution | Culture |
-| -------------- | -------- | --------- | ------- |
-| Small (10-25)  | 25-35%   | 50-60%    | 15-25%  |
-| Growth (25-75) | 30-40%   | 40-50%    | 20-30%  |
-| Scale (75+)    | 35-45%   | 35-45%    | 20-30%  |
-
 ## Who This Is For
 
 - **New CTOs** struggling with role definition and time management
@@ -77,12 +71,6 @@ cto-compass/
 │   └── implementation.md  # How to implement in your role
 └── templates/            # Useful templates and tools
 ```
-
-## Background
-
-This framework was developed through real experience as a co-founder and CTO of a healthcare technology company. It addresses the common challenge of the "accidental CTO" - technical professionals thrust into leadership without formal training or clear role definition.
-
-The SEC Framework provides the structure I wish I'd had when first stepping into technology leadership.
 
 ## License
 
