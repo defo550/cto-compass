@@ -1,27 +1,30 @@
 # CTO Compass 🧭
 
-Navigate the complexities of technology leadership with the Strategy, Execution, and Culture (SEC) Framework.
+Navigate the complexities of technology leadership with the Strategy, Execution, and Culture (SEC) Framework — and the tools that put it into practice.
 
-A practical guide for CTOs, aspiring technology leaders, and "accidental CTOs" who need structure in balancing Strategy, Execution, and Culture.
+A practical guide and toolset for CTOs, aspiring technology leaders, and "accidental CTOs" who need structure in balancing Strategy, Execution, and Culture.
 
 ## Background & Purpose
 
-This framework was developed through real experience as a co-founder and CTO of a healthcare technology company. It addresses the common challenge of the "accidental CTO" - technical professionals thrust into leadership without formal training or clear role definition.
+This framework was developed through real experience as a co-founder and CTO of a healthcare technology company. It addresses the common challenge of the "accidental CTO" — technical professionals thrust into leadership without formal training or clear role definition.
 
-The SEC Framework provides the structure I wish I'd had when first stepping into technology leadership. It provides:
+CTO Compass provides:
 
 - **Clear structure** for the often ambiguous CTO role
 - **Time allocation guidance** to balance competing priorities
 - **Practical tagging system** for tracking where your time actually goes
 - **Career development roadmap** for aspiring technology leaders
+- **Executable tools** that implement the framework in your daily workflow
+
+---
 
 ## The SEC Framework
 
-The CTO Compass organizes technology leadership into three essential domains:
+Technology leadership organized into three essential domains:
 
 ### Strategy (25-35% of time)
 
-#### Setting direction and external positioning
+_Setting direction and external positioning_
 
 - Technology Planning
 - Market Positioning
@@ -30,7 +33,7 @@ The CTO Compass organizes technology leadership into three essential domains:
 
 ### Execution (50-60% of time)
 
-#### Delivering results and operational excellence
+_Delivering results and operational excellence_
 
 - Data & Infrastructure
 - Security & Compliance
@@ -39,17 +42,54 @@ The CTO Compass organizes technology leadership into three essential domains:
 
 ### Culture (15-25% of time)
 
-#### Building teams and organizational capability
+_Building teams and organizational capability_
 
 - Team Development
 - Personal Development
 
+---
+
+## Tools
+
+### monday-task-agent
+
+A CLI tool that converts loosely described work into structured, SEC-tagged task cards and posts them directly to Monday.com.
+
+**The interaction pattern is simple:**
+
+```bash
+python agent.py
+```
+
+```
+> What are you working on?
+  Review NLP engineer briefing on PED package frameworks
+
+> Drafted:
+  Title: Review NLP briefing on PED frameworks
+  SEC: Execution.Product & Engineering Delivery.Product roadmap execution
+  Priority: B | 2 Pomodoros
+  Post it? (y/n/edit)
+
+> y
+  ✓ Posted — item #4821933
+```
+
+The tool applies the SEC Framework, ABCDE prioritization, and Pomodoro estimation automatically. The intelligence lives in the skill definition — the code is thin scaffolding around it.
+
+**[→ monday-task-agent README](tools/monday-task-agent/README.md)**
+
+---
+
 ## Quick Start
 
-1. **Explore the Mindmap**: View the [SEC Framework visualization](mindmap.mermaid)
-2. **Understand the Framework**: Read the [complete guide](docs/framework.md)
-3. **Apply to Your Role**: Check out [real-world examples](docs/examples.md)
-4. **Track Your Time**: Use the tagging system to optimize your effectiveness
+1. **Explore the Framework**: Read the [complete guide](docs/framework.md)
+2. **See It Applied**: Check out [real-world tagging examples](docs/examples.md)
+3. **Get Started Fast**: Follow the [quickstart guide](docs/quickstart.md)
+4. **Implement in Your Role**: Use the [implementation roadmap](docs/implementation.md)
+5. **Try the Tool**: Set up the [monday-task-agent](tools/monday-task-agent/README.md)
+
+---
 
 ## Who This Is For
 
@@ -59,29 +99,47 @@ The CTO Compass organizes technology leadership into three essential domains:
 - **VP Engineers** transitioning to executive roles
 - **Technology Leaders** seeking structure and benchmarks
 
+---
+
 ## Project Structure
 
 ```bash
 cto-compass/
-├── mindmap.mermaid        # SEC framework visualization
+├── .claude/
+│   └── skills/
+│       └── monday-task-agent/
+│           ├── SKILL.md                # Agent skill definition
+│           └── context/
+│               └── company.example.md  # Template for your private context
 ├── docs/
-│   ├── framework.md       # Complete framework guide
-│   ├── quickstart.md      # Getting started guide
-│   ├── examples.md        # Real-world tagging examples
-│   └── implementation.md  # How to implement in your role
-└── templates/            # Useful templates and tools
+│   ├── framework.md                    # Complete framework guide
+│   ├── quickstart.md                   # Getting started
+│   ├── examples.md                     # Real-world tagging examples
+│   └── implementation.md               # Implementation roadmap
+├── tools/
+│   └── monday-task-agent/
+│       ├── agent.py                    # CLI entrypoint
+│       ├── integrations/
+│       │   └── monday.py               # Monday.com GraphQL integration
+│       └── .env.example                # API key template
+├── mindmap.mermaid                     # SEC framework visualization
+└── README.md
 ```
-
-## License
-
-This project is shared under the MIT License - see [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-- Inspired by the challenges of small company technology leadership
-- Refined through startup accelerator programs and peer CTO discussions
-- Battle-tested through platform crises, scaling, and team growth
 
 ---
 
-_Remember: The best compass is one you actually use. Start simple, track consistently, and adjust based on your organization's needs._
+## License
+
+MIT — fork it, adapt it, build on it. If you use the framework, a mention is appreciated but not required.
+
+---
+
+## Acknowledgments
+
+- Developed through the challenges of small company technology leadership
+- Refined through startup accelerator programs and peer CTO discussions
+- Battle-tested through platform crises, team scaling, and competing priorities
+
+---
+
+_The best compass is one you actually use. Start simple, track consistently, adjust as you grow._
