@@ -22,7 +22,7 @@ CTO Compass provides:
 
 Technology leadership organized into three essential domains:
 
-### Strategy (25-35% of time)
+### Strategy
 
 _Setting direction and external positioning_
 
@@ -31,7 +31,7 @@ _Setting direction and external positioning_
 - Partnership Strategy
 - Stakeholder Management
 
-### Execution (50-60% of time)
+### Execution
 
 _Delivering results and operational excellence_
 
@@ -40,7 +40,7 @@ _Delivering results and operational excellence_
 - Product & Engineering Delivery
 - Business Operations
 
-### Culture (15-25% of time)
+### Culture
 
 _Building teams and organizational capability_
 
@@ -61,7 +61,7 @@ A CLI tool that converts loosely described work into structured, SEC-tagged task
 python agent.py
 ```
 
-```
+```bash
 > What are you working on?
   Review NLP engineer briefing on PED package frameworks
 
@@ -105,6 +105,7 @@ The tool applies the SEC Framework, ABCDE prioritization, and Pomodoro estimatio
 
 ```bash
 cto-compass/
+├── CLAUDE.md                           # Project conventions for Claude Code
 ├── .claude/
 │   └── skills/
 │       └── monday-task-agent/
@@ -121,7 +122,9 @@ cto-compass/
 │       ├── agent.py                    # CLI entrypoint
 │       ├── integrations/
 │       │   └── monday.py               # Monday.com GraphQL integration
-│       └── .env.example                # API key template
+│       ├── requirements.txt            # Python dependencies
+│       ├── .env.example                # API key template
+│       └── README.md                   # Tool setup and usage guide
 ├── mindmap.mermaid                     # SEC framework visualization
 └── README.md
 ```
