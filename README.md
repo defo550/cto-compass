@@ -11,7 +11,7 @@ This framework was developed through real experience as a co-founder and CTO of 
 CTO Compass provides:
 
 - **Clear structure** for the often ambiguous CTO role
-- **Time allocation guidance** to balance competing priorities
+- **Time allocation starting points** to balance competing priorities
 - **Practical tagging system** for tracking where your time actually goes
 - **Career development roadmap** for aspiring technology leaders
 - **Executable tools** that implement the framework in your daily workflow

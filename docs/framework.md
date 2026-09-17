@@ -178,6 +178,34 @@ Use these as your main time allocation buckets:
 - CTO peer engagement
 - Executive education
 
+## Time Allocation
+
+How much of your week should each domain get? These are the numbers I actually work from.
+
+| Company size | Strategy | Execution | Culture |
+| ------------ | -------- | --------- | ------- |
+| 10-25 people | 20-30%   | 50-60%    | 15-25%  |
+| 25-75 people | 30-40%   | 40-50%    | 15-25%  |
+| 75+ people   | 35-45%   | 30-40%    | 20-30%  |
+
+### Where These Numbers Come From
+
+They are starting points, not benchmarks. They come from my own tracked allocation as CTO of a 10-15 person healthcare technology company, refined through peer CTO conversations — not from research, industry surveys, or any sample larger than one. Nothing external validates them.
+
+Treat them the way you would treat any prior: as a hypothesis to test against your own tagged data. The tagging system in this framework exists precisely so you can replace my numbers with yours. Once you have four weeks of your own tags, your numbers are better than mine. Perfect allocation isn't the goal — awareness and intentional adjustment are what matter.
+
+Two things the table will not tell you. The bands overlap, so picking the top of all three puts you at 115% and the bottom of all three leaves 15% unaccounted for. Pick a figure inside each band, then check that your three add up to 100. And the middle of each band is a midpoint, not a target — landing outside a band is information, not failure.
+
+### The Two Allocations That Get Squeezed
+
+Domain percentages are too coarse for the two areas that quietly disappear first, and a percentage of a percentage is impossible to hold yourself to. Use hours instead. The figures below assume a 45-50 hour week — scale them if yours differs.
+
+**Security & Compliance**: roughly 4-7 hours a week at the 10-25 person stage. This is the floor that feature work erodes without anyone deciding to erode it. If you are also wearing the CISO hat, treat the bottom of that range as a hard minimum rather than an average.
+
+**Personal Development**: 2-3 hours a week, protected. Small, but it has to be on the calendar — when personal learning competes with team or business needs, personal always loses. That is exactly why it gets an hours floor instead of a percentage.
+
+**Team Development**: no formula. It grows with headcount and with how much of your delivery depends on people who are not you. Watch the direction, not a number — if it has been flat for two quarters while the team doubled, that is the signal.
+
 ## Framework Adaptability
 
 ### Industry Customization
@@ -190,11 +218,11 @@ While originally developed for healthcare technology leadership, the SEC framewo
 
 ### Role Evolution Tracking
 
-The framework scales with career progression:
+The framework scales with career progression. Note that this is a different axis than the company-size table above — you can change roles without the company changing size, and vice versa. These are directional, not numeric:
 
-- **Technical Founder → Professional CTO**: Increasing Strategy domain allocation (20% → 35%)
-- **VP Engineering → CTO**: Formalizing Culture domain activities (15% → 25%)
-- **Small Company CTO → Growth Stage CTO**: Shifting Execution focus from hands-on to oversight (60% → 40%)
+- **Technical Founder → Professional CTO**: Strategy rises as hands-on Execution is delegated. The hardest part is not doing less engineering work; it is no longer being the person who knows every detail.
+- **VP Engineering → CTO**: Culture formalizes from ad-hoc to deliberate, and Strategy expands beyond the engineering org to the board, investors, and partners.
+- **Small Company CTO → Growth Stage CTO**: Execution shifts from doing to overseeing. The domain percentage falls, but the accountability does not.
 
 ## Framework Evolution & Lessons Learned
 
@@ -239,7 +267,7 @@ When Facebook Groups API restrictions threatened core business capabilities, the
 Healthcare company requirements meant wearing CTO/CIO/CISO hats simultaneously. Framework evolution:
 
 - Originally under-represented security work (single bullet point)
-- Critical feedback revealed security should be 15-25% of time allocation
+- Critical feedback revealed security needed a protected block of the week — roughly 4-7 hours — not whatever was left over
 - Added "Security & Compliance" as full focus area with data governance explicit
 - Now tracks whether security work gets adequate attention vs. being squeezed out by feature development
 
@@ -249,7 +277,7 @@ Early framework versions had no space for CTO's own development:
 
 - Recognized pattern: when personal learning competes with team/business needs, personal always loses
 - Added "Personal Development" as separate focus area to force visibility
-- Learning: CTOs who don't invest 7-12% of time in their own growth create organizational ceilings
+- Learning: CTOs who don't protect 2-3 hours a week for their own growth create organizational ceilings
 
 #### Role Ambiguity
 

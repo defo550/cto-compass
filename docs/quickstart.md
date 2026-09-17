@@ -10,7 +10,7 @@ Take a moment to reflect on yesterday. What did you actually do?
 - **Execution work?** (Coding, infrastructure, security, delivery)
 - **Culture work?** (Hiring, mentoring, team meetings, learning)
 
-Write down your rough percentages: S: xx%r E: xx%, C: xx%
+Write down your rough percentages: S: xx%, E: xx%, C: xx%
 
 ## Step 2: Review the Framework (5 min)
 
@@ -51,15 +51,17 @@ Tuesday:
 - Board deck preparation → Strategy.Stakeholder Management.Board communications
 ```
 
-## Your Target Allocation
+## Where CTOs Typically Land
 
-Based on your company size:
+Roughly, by company size:
 
-| Your Company Size | Strategy Target | Execution Target | Culture Target |
-| ----------------- | --------------- | ---------------- | -------------- |
-| 10-25 people      | 25-35%          | 50-60%           | 15-25%         |
-| 25-75 people      | 30-40%          | 40-50%           | 20-30%         |
-| 75+ people        | 35-45%          | 35-45%           | 20-30%         |
+| Your Company Size | Strategy | Execution | Culture |
+| ----------------- | -------- | --------- | ------- |
+| 10-25 people      | 20-30%   | 50-60%    | 15-25%  |
+| 25-75 people      | 30-40%   | 40-50%    | 15-25%  |
+| 75+ people        | 35-45%   | 30-40%    | 20-30%  |
+
+These are my own tracked numbers, not research — a starting point to compare against, not a target to hit. The bands overlap, so pick a figure inside each one and check that your three add up to 100. See [Time Allocation](framework.md#time-allocation) for where these come from and for the two areas that need hours rather than percentages.
 
 ## Next Actions
 

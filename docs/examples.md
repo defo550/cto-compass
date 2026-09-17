@@ -54,35 +54,11 @@ Attend industry conference → Culture.Personal Development.CTO peer engagement
 Read latest technical research papers → Culture.Personal Development.Skill development
 ```
 
-## Time Allocation Benchmarks
+## Time Allocation
 
-### Small Company CTO (10-25 employees)
+Target percentages by company size, plus the two areas that need an hours floor rather than a percentage, live in the framework guide: **[Time Allocation](framework.md#time-allocation)**.
 
-**Recommended Distribution:**
-
-- Strategy: 25-35%
-- Execution: 50-60%
-- Culture: 15-25%
-
-**Rationale**: Higher execution demands due to hands-on technical work and limited delegation options
-
-### Growth Stage CTO (25-75 employees)
-
-**Recommended Distribution:**
-
-- Strategy: 30-40%
-- Execution: 40-50%
-- Culture: 20-30%
-
-**Rationale**: Balanced approach as delegation increases and strategic work becomes more critical
-
-### CTO/CIO/CISO Combined Role
-
-**Additional Considerations:**
-
-- Security & Compliance should represent 15-25% of total Execution time
-- Personal Development minimum 7-12% to avoid skill obsolescence
-- Team Development increases as team grows (5% per additional 10 employees)
+Kept in one place so the numbers here and there can't drift apart.
 
 ## Quick Reference
 
