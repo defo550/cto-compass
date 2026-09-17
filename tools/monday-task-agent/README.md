@@ -81,3 +81,4 @@ tools/monday-task-agent/
 - **Intelligence layer**: The SEC Framework taxonomy, classification rules, and behavioral contract live in `.claude/skills/monday-task-agent/SKILL.md` — loaded as the system prompt
 - **Company context**: Private context (team, workstreams, priorities) loaded from `context/company.md` at runtime
 - **Tool use**: The agent uses Anthropic's tool-use API to call `monday_create_task` only after explicit user confirmation
+- **Model**: `claude-sonnet-5` via the Anthropic Messages API, with the SEC Framework system prompt cached across turns. The model ID is set at the top of `agent.py`

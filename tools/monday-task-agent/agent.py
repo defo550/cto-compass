@@ -27,7 +27,7 @@ from integrations.monday import (
     query_board_columns,
 )
 
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-5"
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -159,17 +159,36 @@ def conversation_loop() -> None:
             print("Goodbye.")
             break
 
+        # Mark where this turn starts so a refusal can roll the whole turn back
+        # (popping only the last message would orphan a tool_use block).
+        turn_start = len(messages)
         messages.append({"role": "user", "content": user_input})
 
         # Inner loop: handle tool-use round-trips until model returns text only
         while True:
             response = client.messages.create(
                 model=MODEL,
-                max_tokens=4096,
-                system=system_prompt,
+                max_tokens=16000,
+                output_config={"effort": "medium"},
+                system=[{
+                    "type": "text",
+                    "text": system_prompt,
+                    "cache_control": {"type": "ephemeral"},
+                }],
                 tools=tools,
                 messages=messages,
             )
+
+            # Safety classifiers return HTTP 200 with stop_reason "refusal",
+            # not an exception — without this the turn would fail silently.
+            if response.stop_reason == "refusal":
+                detail = getattr(response.stop_details, "explanation", None)
+                print(f"\nThe model declined this request. {detail or ''}\n")
+                del messages[turn_start:]
+                break
+
+            if response.stop_reason == "max_tokens":
+                print("\nWarning: response hit the token limit and may be incomplete.\n")
 
             assistant_content = response.content
             messages.append({"role": "assistant", "content": assistant_content})
